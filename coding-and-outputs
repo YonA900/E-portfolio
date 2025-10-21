@@ -1,0 +1,92 @@
+📁 Branch 4: coding-and-outputs
+
+Purpose: Showcase the coding simulations and technical outputs produced to support the quantitative risk analysis and security architecture design of the Pampered Pets case study.
+Author: Younis Ali Saeed Khamis Alhussaini
+
+🔧 1. Overview
+
+As part of the final Individual Project – Executive Summary, I developed a risk analysis model and system failover simulation using Python. These scripts were built to support technical decision-making around security controls, SLA planning, and disaster recovery strategies for the fictional business case of Pampered Pets, a pet care and grooming service undergoing digital transformation.
+
+The code snippets are located in the /coding-and-outputs/scripts/ directory and accompanied by .png screenshots in /outputs/ for visual clarity.
+
+📜 2. Python Script 1: Simple Risk Score Calculator (DREAD)
+✅ Purpose:
+
+To calculate composite risk scores using the DREAD model, incorporating:
+
+Damage Potential
+
+Reproducibility
+
+Exploitability
+
+Affected Users
+
+Discoverability
+
+💻 Code Snippet:
+# dread_score_calculator.py
+def dread_score(damage, reproducibility, exploitability, affected_users, discoverability):
+    total = damage + reproducibility + exploitability + affected_users + discoverability
+    average = total / 5
+    return average
+
+# Example use
+risk1 = dread_score(8, 7, 9, 6, 7)
+print(f"Risk Score (DREAD): {risk1:.2f}")
+
+📊 Output:
+Risk Score (DREAD): 7.40
+
+📎 Screenshot:
+
+See /outputs/dread_output_example.png
+
+📜 3. Python Script 2: Probability-Based Risk Matrix
+✅ Purpose:
+
+Simulates a probability-impact matrix based on randomised inputs to model how different threats (e.g., data breach, system outage) rank on severity.
+
+💻 Code Snippet:
+# risk_matrix_simulation.py
+import random
+
+risks = ["Data Breach", "Insider Threat", "DDoS Attack", "Ransomware", "Power Outage"]
+for risk in risks:
+    probability = random.uniform(0.1, 1.0)
+    impact = random.randint(1, 10)
+    score = round(probability * impact, 2)
+    print(f"{risk}: Probability={probability:.2f}, Impact={impact}, Score={score}")
+
+📊 Sample Output:
+Data Breach: Probability=0.82, Impact=9, Score=7.38  
+Insider Threat: Probability=0.66, Impact=6, Score=3.96  
+DDoS Attack: Probability=0.44, Impact=7, Score=3.08  
+Ransomware: Probability=0.92, Impact=10, Score=9.20  
+Power Outage: Probability=0.36, Impact=5, Score=1.80
+
+📎 Screenshot:
+
+See /outputs/risk_matrix_simulation.png
+
+📜 4. Python Script 3: Failover Readiness Checker
+✅ Purpose:
+
+To validate that the 1-minute disaster recovery (DR) SLA requirement can be met by checking current failover configuration timings.
+
+💻 Code Snippet:
+# failover_checker.py
+def is_failover_compliant(time_taken_seconds):
+    return time_taken_seconds <= 60
+
+test_times = [45, 75, 30, 90, 59]
+for t in test_times:
+    result = "✅ Compliant" if is_failover_compliant(t) else "❌ Not Compliant"
+    print(f"Failover Time: {t}s --> {result}")
+
+📊 Sample Output:
+Failover Time: 45s --> ✅ Compliant  
+Failover Time: 75s --> ❌ Not Compliant  
+Failover Time: 30s --> ✅ Compliant  
+Failover Time: 90s --> ❌ Not Compliant  
+Failover Time: 59s --> ✅ Compliant
