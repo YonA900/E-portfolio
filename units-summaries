@@ -1,0 +1,56 @@
+📁 Branch 1: units-summaries
+
+Purpose: Summarise learning outcomes, practical applications, and academic development across the twelve units of the Security and Risk Management module.
+Author: Younis Ali Saeed Khamis Alhussaini
+
+🧩 Unit 1 – Introduction to Security and Risk Management
+
+This unit introduced the foundational pillars of cybersecurity—confidentiality, integrity, and availability (CIA)—and how these guide all subsequent decisions in information assurance. I learned to identify typical threat vectors and the importance of aligning security controls with organisational goals. Through interactive discussions, I realised that risk management is both a technical and business function, balancing cost, usability, and resilience.
+
+🧮 Unit 2 – Cyber Threats and Vulnerabilities
+
+In this unit, I explored threat modelling and vulnerability classification. I analysed different attack types (e.g., phishing, SQL injection, DoS) and the role of human error in organisational breaches. This knowledge became critical during the Pampered Pets case study, where our team identified insider misuse and weak password policies as major threats. The unit also emphasised how external factors—like supplier risk and third-party APIs—can compromise even small businesses.
+
+⚙️ Unit 3 – Governance, Compliance, and Legal Standards
+
+Unit 3 deepened my understanding of GDPR, ISO/IEC 27001, and NIST frameworks. I learned to map risk controls to compliance clauses, such as Article 32 (Data Security) and Article 33 (Breach Notification). Applying these to our group project helped me ensure our recommendations were legally defensible and ethically sound, especially concerning personal pet and owner data. This unit reinforced my awareness that cybersecurity governance is as vital as technical security.
+
+🧭 Unit 4 – Risk Identification and Evaluation
+
+This unit was highly practical, focusing on risk matrices, likelihood-impact scoring, and documentation processes. I applied the STRIDE framework (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) to the Pampered Pets system, mapping threats to mitigation plans. I also developed an appreciation for consistency in risk scoring to avoid bias—a lesson that improved my analytical discipline.
+
+🧱 Unit 5 – Risk Control and Mitigation
+
+Building on Unit 4, I learned to translate assessments into actionable control strategies. Concepts like the Defense-in-Depth model, encryption standards, and multifactor authentication were explored. Our team implemented these ideas in the mitigation matrix section of the group report, where I contributed to defining technical and procedural controls. This unit taught me how to justify control priorities based on risk appetite and cost-benefit analysis.
+
+💾 Unit 6 – Disaster Recovery and Business Continuity
+
+This unit was pivotal in shaping my understanding of resilience. I studied RTO (Recovery Time Objective) and RPO (Recovery Point Objective) and how they affect continuity design. During the group report, I proposed integrating automated backups and cloud-based recovery using AWS regions, drawing on real-world SME examples. These insights became central to my individual Executive Summary, where I achieved sub-minute recovery performance modelling.
+
+📊 Unit 7 – Security Frameworks and Implementation
+
+Here, I explored how to select and tailor security frameworks. The comparison of ISO 27005, NIST CSF, and OCTAVE frameworks helped me conclude that combining ISO’s systematic methodology with NIST’s practical maturity levels was ideal for small enterprises. This approach was documented in our group’s decision matrix and later cited in my final project as a dual-framework implementation.
+
+🔍 Unit 8 – Emerging Risks and Supply Chain Security
+
+This unit expanded my perspective beyond internal risks to supply chain dependencies. I learned how a single supplier vulnerability could cascade through the ecosystem. Using the Pampered Pets example, I examined the impact of SaaS vendor downtime and payment gateway failures. This analysis encouraged me to integrate multi-vendor redundancy and contractual SLAs into my recommendations—concepts that later influenced my Monte Carlo simulation model.
+
+🧠 Unit 9 – Quantitative Risk Modelling
+
+One of the most technical units, Unit 9 introduced Bayesian Fault Tree Analysis (BFTA) and Monte Carlo simulation. These methods allowed for quantitative validation of assumptions. I implemented these techniques in my individual project, calculating SLA breach probabilities and quality escape rates. Learning to use probabilistic models marked my transition from qualitative reasoning to data-driven decision-making.
+
+🧩 Unit 10 – Ethics, Privacy, and Data Governance
+
+This unit emphasised ethical cybersecurity practices, particularly concerning AI-based decision systems. I studied data bias, governance accountability, and ethical auditing, which I incorporated into my final report through DPIAs (Data Protection Impact Assessments) and quarterly audit recommendations. It reinforced that cybersecurity leadership is also about integrity, not just compliance.
+
+🔬 Unit 11 – Individual Executive Summary
+
+In Unit 11, I produced my individual technical report — “Quantifying Quality and Availability Risk in Digitalisation with Sub-Minute DR/BC.” This was the culmination of all prior learning. I merged quantitative risk models, legal controls, and business continuity planning into a coherent executive summary. The project demonstrated that I could bridge strategic thinking with technical execution, meeting real-world DR and GDPR benchmarks.
+
+🧾 Unit 12 – e-Portfolio Compilation and Reflection
+
+The final unit required consolidating all artefacts—group work, peer review, and individual outputs—into a structured e-portfolio. This process helped me see the full arc of my development: from initial understanding to analytical expertise. Reflecting on my journey through documentation made me appreciate how collaboration, iteration, and feedback strengthened my skills.
+
+✍️ Conclusion
+
+Unit by unit, this module transformed my approach to cybersecurity from reactive to systemic and proactive. I gained practical knowledge in threat modelling, quantitative analysis, governance compliance, and continuity planning. More importantly, I learned the value of collaboration, transparency, and accountability in team environments. These insights not only strengthened my academic capabilities but also prepared me for future roles in cybersecurity and digital risk management.
