@@ -1,0 +1,73 @@
+📁 Branch 3: reflection-and-peer-review
+
+Purpose: Provide an analytical reflection on personal learning, teamwork dynamics, peer feedback, and development throughout the Security and Risk Management module.
+Author: Younis Ali Saeed Khamis Alhussaini
+
+🧭 1. Introduction
+
+The Security and Risk Management (SRM_PCOM7E) module has been both technical and developmental. It not only expanded my knowledge of cybersecurity frameworks but also enhanced my ability to function as an effective team member and reflective learner.
+This section critically evaluates my performance, peer feedback, and learning using the Rolfe et al. (2001) model (What? – So What? – Now What?).
+
+💡 2. WHAT? – Experience Overview
+
+During the group project (Pampered Pets Risk Assessment), I collaborated with Sulaiman and Abdullah to identify organisational risks and propose mitigation strategies for a small pet‑care business moving towards digitalisation.
+My role was to:
+
+Lead the risk identification process, mapping assets and threats using the STRIDE model.
+
+Write the Conclusion and Recommendations sections of the report.
+
+Ensure alignment between technical findings and GDPR Article 32 requirements.
+
+Later, in my individual project (Executive Summary), I expanded the same case into a quantitative assessment using Bayesian reasoning and failover architecture design. I also contributed actively to the peer review stage, where I evaluated my teammates’ communication, reliability, and quality of contribution through the Updated Peer Evaluation Template.docx.
+
+🔍 3. SO WHAT? – Critical Reflection and Analysis
+a) Personal and Technical Growth
+
+At the start of the module, I often viewed risk management primarily as a compliance exercise. Through the course readings and practice, I realised that it is a continuous cycle of identification, evaluation, mitigation, and review.
+By working on our group risk register, I became confident with applying quantitative scoring systems (DREAD and ISO 27005), converting subjective assessments into measurable outcomes.
+In my individual project, I applied this understanding practically by calculating probabilities for SLA breaches and system downtime, which showed me how risk quantification can guide investment in security controls.
+
+b) Teamwork and Collaboration
+
+The group experience improved my professional communication. In early meetings, we faced version‑control confusion due to multiple document edits. I suggested using a shared Google Doc with section ownership, which resolved duplication and improved accountability.
+Peer feedback highlighted my reliability and strong writing skills, though it also suggested that I could initiate mid‑week check‑ins more frequently. I took this feedback seriously and introduced progress reminders to ensure the group maintained momentum toward deadlines.
+
+c) Ethical and Professional Awareness
+
+The project required balancing technical innovation with ethical responsibility. For example, when discussing user data collection, I researched GDPR data‑minimisation principles to ensure that our mitigation plan respected user privacy.
+I also learned to articulate ethical dilemmas—like when risk reduction measures (e.g., CCTV, data analytics) might create new privacy risks—reflecting a deeper professional maturity.
+
+🚀 4. NOW WHAT? – Future Application and Learning Goals
+a) Applying Learning in Professional Practice
+
+The skills I gained—risk scoring, framework mapping, and peer collaboration—are directly applicable to real‑world cybersecurity roles.
+Going forward, I plan to:
+
+Apply NIST CSF and ISO 27005 frameworks in structured risk audits.
+
+Use quantitative modelling tools such as Monte Carlo simulation to justify security investment decisions.
+
+Continue using reflective practices to assess performance in cross‑functional teams.
+
+b) Continuous Improvement
+
+The peer feedback process taught me the importance of transparent communication. In future projects, I will take a more proactive leadership role in scheduling, ensuring early reviews of deliverables to avoid last‑minute pressure.
+Additionally, I intend to expand my technical portfolio by developing Python‑based security tools, automating risk assessments, and linking theoretical models to practical outputs.
+
+c) Broader Professional Impact
+
+This reflection process reaffirmed my goal to work in cyber risk consultancy or governmental digital security. I now recognise that technical expertise must coexist with interpersonal and ethical skills.
+My ability to translate analytical results into actionable strategies—demonstrated in the Executive Summary—will serve as a foundation for advising organisations on resilience and data protection.
+
+🧩 5. Key Takeaways
+Area	Learning Outcome	Evidence
+Technical Modelling	Applied STRIDE, DREAD, and quantitative analysis	Group Report + Executive Summary
+Collaboration	Effective communication and task delegation	Meeting Notes + Peer Evaluation
+Professional Growth	Ethical decision‑making and GDPR alignment	Individual Project
+Reflection	Adapted feedback to improve scheduling and leadership	Peer Review Form
+🧾 6. Conclusion
+
+Reflecting on my journey through SRM_PCOM7E, I recognise that learning security management extends beyond understanding frameworks—it involves critical thinking, teamwork, and adaptability.
+The combination of group collaboration, technical analysis, and self‑evaluation has equipped me with the mindset of a strategic cybersecurity professional who can assess, mitigate, and communicate risk effectively.
+By incorporating feedback, I not only enhanced the quality of my work but also strengthened essential soft skills—resilience, communication, and accountability—that define future leaders in cybersecurity.
